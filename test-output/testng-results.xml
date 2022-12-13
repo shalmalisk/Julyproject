@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[reading value ofurlfrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofnumfrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000milisec]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofpswdfrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[sending password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for3000milisec]]>
+    </line>
+    <line>
+      <![CDATA[Scrolling to viewClose]]>
+    </line>
+    <line>
+      <![CDATA[handeling popUp]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[getting actual balance]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[getting actual balance]]>
+    </line>
+    <line>
+      <![CDATA[Account balance isRs.5,00,000.00]]>
+    </line>
+    <line>
+      <![CDATA[TC validateBalance is completed sucessfully ]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofnumfrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000milisec]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofpswdfrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[sending password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000milisec]]>
+    </line>
+    <line>
+      <![CDATA[There is no popUp]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[getting username]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofuserNamefrom proprty file]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[getting username]]>
+    </line>
+    <line>
+      <![CDATA[Actual userName is Hi Shalmali Kadam]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserName is completed sucessfully ]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000milisec]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-02T17:11:34 IST" name="Default suite" finished-at="2022-12-02T17:12:08 IST" duration-ms="33492">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T17:11:34 IST" name="Default test" finished-at="2022-12-02T17:12:08 IST" duration-ms="33492">
+      <class name="neostoxTest.ValidateNeostoxUsernameBalanceWithListener">
+        <test-method is-config="true" signature="launchNeostox()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:11:34 IST" name="launchNeostox" finished-at="2022-12-02T17:11:48 IST" duration-ms="13774" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading value ofurlfrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeostox -->
+        <test-method is-config="true" signature="loginToNeostox()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:11:48 IST" name="loginToNeostox" finished-at="2022-12-02T17:11:59 IST" duration-ms="11176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading value ofnumfrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000milisec]]>
+            </line>
+            <line>
+              <![CDATA[reading value ofpswdfrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[sending password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for3000milisec]]>
+            </line>
+            <line>
+              <![CDATA[Scrolling to viewClose]]>
+            </line>
+            <line>
+              <![CDATA[handeling popUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeostox -->
+        <test-method signature="validateBalance()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:11:59 IST" name="validateBalance" finished-at="2022-12-02T17:12:00 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[getting actual balance]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[getting actual balance]]>
+            </line>
+            <line>
+              <![CDATA[Account balance isRs.5,00,000.00]]>
+            </line>
+            <line>
+              <![CDATA[TC validateBalance is completed sucessfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBalance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:12:00 IST" name="logout" finished-at="2022-12-02T17:12:00 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginToNeostox()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:12:00 IST" name="loginToNeostox" finished-at="2022-12-02T17:12:06 IST" duration-ms="5860" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading value ofnumfrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000milisec]]>
+            </line>
+            <line>
+              <![CDATA[reading value ofpswdfrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[sending password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000milisec]]>
+            </line>
+            <line>
+              <![CDATA[There is no popUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeostox -->
+        <test-method signature="validateUserName()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:12:06 IST" name="validateUserName" finished-at="2022-12-02T17:12:07 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[getting username]]>
+            </line>
+            <line>
+              <![CDATA[reading value ofuserNamefrom proprty file]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[getting username]]>
+            </line>
+            <line>
+              <![CDATA[Actual userName is Hi Shalmali Kadam]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserName is completed sucessfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:12:07 IST" name="logout" finished-at="2022-12-02T17:12:07 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000milisec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeapplication()[pri:0, instance:neostoxTest.ValidateNeostoxUsernameBalanceWithListener@23c30a20]" started-at="2022-12-02T17:12:07 IST" name="closeapplication" finished-at="2022-12-02T17:12:08 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- neostoxTest.ValidateNeostoxUsernameBalanceWithListener -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
