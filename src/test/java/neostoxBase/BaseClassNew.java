@@ -20,7 +20,7 @@ protected WebDriver driver;
 		
 		
 		
-		
+		//browser launched
 		
 		neostoxPOM.NeoUtilityNew.wait(driver, 1000);
 	}
