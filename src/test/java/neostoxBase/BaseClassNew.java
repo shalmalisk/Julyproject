@@ -15,6 +15,13 @@ protected WebDriver driver;
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(neostoxPOM.NeoUtilityNew.readDataFromPropertyFile("url"));
+		
+		
+		
+		
+		
+		
+		
 		neostoxPOM.NeoUtilityNew.wait(driver, 1000);
 	}
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
